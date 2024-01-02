@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+float temp(float c){
+	return (c*9/5)+32;
+}
+int main(){
+	float c=32;
+	cout<<temp(c);
+	return 0;
+}
