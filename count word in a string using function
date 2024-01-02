@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+void countword(string& str){
+	int count=1;
+	for (int i=0;i<str.length();i++){
+		if (str[i]==' '){
+			count++;
+			cout<<str[i];
+		}
+	}
+	cout<<"total count of words"<<count;
+}
+int main(){
+	string str="the world is beautiful";
+	countword(str);
+	return 0;
+}
